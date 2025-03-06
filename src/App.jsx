@@ -23,7 +23,7 @@ function App() {
       alignItems: "center",
       height: "100vh",
       width: "100vw",
-      backgroundColor: "#282c34",
+      backgroundColor: "white",
       color: "white"
     }}>
       <Clock />
