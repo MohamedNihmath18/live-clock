@@ -11,6 +11,8 @@
 
 // export default App;
 
+ 
+
 import Clock from "./components/Clock";
 
 function App() {
@@ -20,7 +22,7 @@ function App() {
       justifyContent: "center",
       alignItems: "center",
       height: "100vh",
-      flexDirection: "column",
+      width: "100vw",
       backgroundColor: "#282c34",
       color: "white"
     }}>
@@ -30,3 +32,6 @@ function App() {
 }
 
 export default App;
+
+
+ 

@@ -30,22 +30,46 @@ const Clock = () => {
 };
 
 // Basic inline styles
+// const styles = {
+//   container: {
+//     textAlign: "center",
+//     fontSize: "24px",
+//     marginTop: "20px",
+//     fontFamily: "Arial, sans-serif",
+//   },
+//   time: {
+//     fontSize: "50px",
+//     fontWeight: "bold",
+//     color: "darkblue",
+//   },
+//   date: {
+//     fontSize: "24px",
+//     color: "#333",
+//   },
+// };
+
 const styles = {
-  container: {
-    textAlign: "center",
-    fontSize: "24px",
-    marginTop: "20px",
-    fontFamily: "Arial, sans-serif",
-  },
-  time: {
-    fontSize: "50px",
-    fontWeight: "bold",
-    color: "darkblue",
-  },
-  date: {
-    fontSize: "24px",
-    color: "#333",
-  },
-};
+    container: {
+      display: "flex",
+      flexDirection: "column",
+      justifyContent: "center",
+      alignItems: "center",
+      height: "100vh",  // Full screen height
+      width: "100vw",   // Full screen width
+      textAlign: "center",
+      fontSize: "24px",
+      fontFamily: "Arial, sans-serif",
+    },
+    time: {
+      fontSize: "50px",
+      fontWeight: "bold",
+      color: "darkblue",
+    },
+    date: {
+      fontSize: "24px",
+      color: "#333",
+    },
+  };
+  
 
 export default Clock;
