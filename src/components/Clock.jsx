@@ -124,7 +124,7 @@ const styles = {
     fontSize: "60px",
     fontWeight: "bold",
     color: "black", // Black time text
-    marginBottom: "5px",
+    marginBottom: "2px",
   },
   date: {
     fontSize: "28px",
