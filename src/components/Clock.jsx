@@ -124,10 +124,12 @@ const styles = {
     fontSize: "60px",
     fontWeight: "bold",
     color: "black", // Black time text
+    marginBottom: "5px",
   },
   date: {
     fontSize: "28px",
     color: "#333", // Slightly dark grey for the date
+    marginTop: "0px", 
   },
 };
 
